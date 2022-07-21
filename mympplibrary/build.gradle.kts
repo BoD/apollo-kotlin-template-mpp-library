@@ -1,6 +1,6 @@
 plugins {
     kotlin("multiplatform")
-    id("com.apollographql.apollo3") version "3.3.2"
+    id("com.apollographql.apollo3") version "3.4.1-SNAPSHOT"
 }
 
 kotlin {
@@ -14,7 +14,7 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("com.apollographql.apollo3:apollo-runtime:3.3.2")
+                implementation("com.apollographql.apollo3:apollo-runtime")
             }
         }
         val commonTest by getting {

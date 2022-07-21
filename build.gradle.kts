@@ -22,5 +22,7 @@ allprojects {
     }
 }
 
-// The library is compiled into an iOS Framework and linked when running the iOS app, via the :mympplibrary:embedAndSignAppleFrameworkForXcode task
+// The library is automatically compiled into an iOS Framework and linked when building the iOS app, via the :mympplibrary:embedAndSignAppleFrameworkForXcode task
 // See https://blog.jetbrains.com/kotlin/2021/07/multiplatform-gradle-plugin-improved-for-connecting-kmm-modules/
+
+// `./gradlew :mympplibrary:linkDebugFrameworkIos` to manually build the Framework
