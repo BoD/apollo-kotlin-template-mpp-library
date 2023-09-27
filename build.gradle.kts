@@ -1,10 +1,10 @@
 plugins {
-    kotlin("multiplatform") version "1.7.0" apply false
+    kotlin("multiplatform") version "1.9.10" apply false
 }
 
 buildscript {
     repositories {
-        mavenLocal()
+//        mavenLocal()
         mavenCentral()
         google()
     }

@@ -5,7 +5,7 @@ class MyMppLibrary {
         return getApolloClient()
             .query(LaunchListQuery())
             .execute()
-            .dataAssertNoErrors
+            .dataOrThrow()
             .launches
             .launches
     }

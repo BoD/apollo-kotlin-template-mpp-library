@@ -1,6 +1,6 @@
 plugins {
     kotlin("multiplatform")
-    id("com.apollographql.apollo3") version "3.4.1-SNAPSHOT"
+    id("com.apollographql.apollo3") version "4.0.0-alpha.3"
 }
 
 kotlin {
@@ -26,5 +26,7 @@ kotlin {
 }
 
 apollo {
-    packageName.set("com.example.mympplibrary")
+    service("service") {
+        packageName.set("com.example.mympplibrary")
+    }
 }
