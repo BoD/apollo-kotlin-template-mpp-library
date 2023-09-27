@@ -1,6 +1,8 @@
 package com.example.mympplibrary
 
 import com.apollographql.apollo3.ApolloClient
+import com.apollographql.apollo3.cache.normalized.normalizedCache
+import com.apollographql.apollo3.cache.normalized.sql.SqlNormalizedCacheFactory
 
 private var instance: ApolloClient? = null
 
@@ -12,7 +14,7 @@ fun getApolloClient(): ApolloClient {
     instance = ApolloClient.Builder()
         .serverUrl("https://apollo-fullstack-tutorial.herokuapp.com/graphql")
         .webSocketServerUrl("wss://apollo-fullstack-tutorial.herokuapp.com/graphql")
-        .autoPersistedQueries()
+        .normalizedCache(SqlNormalizedCacheFactory("apollo.db"))
         .build()
 
     return instance!!

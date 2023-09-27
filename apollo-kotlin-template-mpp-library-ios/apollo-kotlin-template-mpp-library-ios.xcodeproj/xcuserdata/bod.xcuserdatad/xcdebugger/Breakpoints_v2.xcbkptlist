@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "35DEDC5C-368F-42D6-82D1-32F39FC79F45"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D2F8B2B-C7EC-4798-98E0-07BE3BE1CF59"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "apollo-kotlin-template-mpp-library-ios/apollo_kotlin_template_mpp_library_iosApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5D2F8B2B-C7EC-4798-98E0-07BE3BE1CF59 - 5186adf2fb32ee09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in apollo_kotlin_template_mpp_library_ios.apollo_kotlin_template_mpp_library_iosApp.init() -&gt; apollo_kotlin_template_mpp_library_ios.apollo_kotlin_template_mpp_library_iosApp"
+                  moduleName = "apollo-kotlin-template-mpp-library-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bod/gitrepo/apollo-kotlin-template-mpp-library/apollo-kotlin-template-mpp-library-ios/apollo-kotlin-template-mpp-library-ios/apollo_kotlin_template_mpp_library_iosApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "5D2F8B2B-C7EC-4798-98E0-07BE3BE1CF59 - ed3fa84008fab5e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) await resume partial function for closure #1 @Sendable () async throws -&gt; () in apollo_kotlin_template_mpp_library_ios.apollo_kotlin_template_mpp_library_iosApp.init() -&gt; apollo_kotlin_template_mpp_library_ios.apollo_kotlin_template_mpp_library_iosApp"
+                  moduleName = "apollo-kotlin-template-mpp-library-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bod/gitrepo/apollo-kotlin-template-mpp-library/apollo-kotlin-template-mpp-library-ios/apollo-kotlin-template-mpp-library-ios/apollo_kotlin_template_mpp_library_iosApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "5D2F8B2B-C7EC-4798-98E0-07BE3BE1CF59 - dee3a664edbe920f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in apollo_kotlin_template_mpp_library_ios.apollo_kotlin_template_mpp_library_iosApp.init() -&gt; apollo_kotlin_template_mpp_library_ios.apollo_kotlin_template_mpp_library_iosApp"
+                  moduleName = "apollo-kotlin-template-mpp-library-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bod/gitrepo/apollo-kotlin-template-mpp-library/apollo-kotlin-template-mpp-library-ios/apollo-kotlin-template-mpp-library-ios/apollo_kotlin_template_mpp_library_iosApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "5D2F8B2B-C7EC-4798-98E0-07BE3BE1CF59 - 51f835af0f14bfd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in apollo_kotlin_template_mpp_library_ios.apollo_kotlin_template_mpp_library_iosApp.init() -&gt; apollo_kotlin_template_mpp_library_ios.apollo_kotlin_template_mpp_library_iosApp"
+                  moduleName = "apollo-kotlin-template-mpp-library-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bod/gitrepo/apollo-kotlin-template-mpp-library/apollo-kotlin-template-mpp-library-ios/apollo-kotlin-template-mpp-library-ios/apollo_kotlin_template_mpp_library_iosApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
